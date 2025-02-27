@@ -4,7 +4,7 @@ from langchain_community.llms import Ollama
 from langchain.memory import ConversationBufferMemory
 
 # Initialize LLM
-llm = Ollama(model="deepseek-r1:1.5b")
+llm = Ollama(model="llama3.2")
 
 # Initialize memory
 if "memory" not in st.session_state:
