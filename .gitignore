@@ -1,0 +1,7 @@
+# Ignore all files
+*
+
+# Un-ignore specific files
+!README.md
+!.gitignore
+
